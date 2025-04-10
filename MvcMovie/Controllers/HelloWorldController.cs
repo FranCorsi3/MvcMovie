@@ -9,6 +9,11 @@ namespace MvcMovie.Controllers
         {
             return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
         }
+        public IActionResult Index()
+        {
+            return View();
+        }
+
 
     }
 
