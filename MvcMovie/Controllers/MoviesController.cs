@@ -53,5 +53,9 @@ namespace MvcMovie.Controllers
 
             return View(movie);
         }
+        public IActionResult NuevaVista()
+        {
+            return View();
+        }
     }
 }
