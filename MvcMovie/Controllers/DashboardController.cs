@@ -6,7 +6,7 @@ namespace MvcMovie.Controllers
     {
         public IActionResult Index()
         {
-            ViewBag.MensajeBienvenida = "¡Bienvenido al panel de usuario!";
+            ViewBag.Mensaje = "¡Bienvenido al panel de control!";
             return View();
         }
     }
